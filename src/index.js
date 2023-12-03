@@ -10,7 +10,7 @@ app.use(morgan("combined"));
 app.use(express.static(path.join(__dirname, "public")));
 
 //template engine
-app.engine(
+     app.engine(
   ".hbs",
   handlebars.engine({
     extname: ".hbs",
